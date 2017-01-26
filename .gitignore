@@ -37,3 +37,9 @@ jspm_packages
 .node_repl_history
 
 .idea
+
+# Ignore generated .js and .d.ts files (we only need to store the .ts files)
+src/**/*.js
+src/**/*.d.ts
+spec/**/*.js
+spec/**/*.d.ts

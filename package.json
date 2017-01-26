@@ -4,7 +4,8 @@
   "description": "Template repo for new node/typescript repos.  This is also used by my GitHub-API repo as a semi-stable/consistent repo to test against.",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp test",
+    "prepublish": "in-publish && npm test"
   },
   "repository": {
     "type": "git",
@@ -17,12 +18,17 @@
   },
   "homepage": "https://github.com/JonathonRichardson/NPM-Typescript-Template#readme",
   "dependencies": {
+    "in-publish": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.5.41",
     "@types/node": "^7.0.4",
     "gulp": "^3.9.1",
     "gulp-jasmine": "^2.4.2",
     "gulp-typescript": "^3.1.4",
     "jasmine": "^2.5.3",
     "jasmine-console-reporter": "^1.2.7",
+    "merge2": "^1.0.3",
     "typescript": "^2.1.5"
   }
 }
