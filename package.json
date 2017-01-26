@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/JonathonRichardson/NPM-Typescript-Template/issues"
   },
-  "homepage": "https://github.com/JonathonRichardson/NPM-Typescript-Template#readme"
+  "homepage": "https://github.com/JonathonRichardson/NPM-Typescript-Template#readme",
+  "dependencies": {
+    "@types/node": "^7.0.4",
+    "gulp": "^3.9.1",
+    "gulp-jasmine": "^2.4.2",
+    "gulp-typescript": "^3.1.4",
+    "jasmine": "^2.5.3",
+    "jasmine-console-reporter": "^1.2.7",
+    "typescript": "^2.1.5"
+  }
 }
