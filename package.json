@@ -1,0 +1,19 @@
+{
+  "name": "npm-typescript-template",
+  "version": "0.1.0",
+  "description": "Template repo for new node/typescript repos.  This is also used by my GitHub-API repo as a semi-stable/consistent repo to test against.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonathonRichardson/NPM-Typescript-Template.git"
+  },
+  "author": "Jon Richardson",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/JonathonRichardson/NPM-Typescript-Template/issues"
+  },
+  "homepage": "https://github.com/JonathonRichardson/NPM-Typescript-Template#readme"
+}
