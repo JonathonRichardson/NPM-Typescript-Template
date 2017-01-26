@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Template repo for new node/typescript repos.  This is also used by my GitHub-API repo as a semi-stable/consistent repo to test against.",
   "main": "src/index.js",
+  "typings": "src/index.d.ts",
   "scripts": {
     "test": "gulp test",
     "prepublish": "in-publish && npm test || not-in-publish"
